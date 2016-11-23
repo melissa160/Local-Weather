@@ -1,0 +1,59 @@
+body {
+	background-color: #FFEAE5;
+	font-family: 'Arvo', serif;
+	font-size: 23px;
+}
+
+.container{
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.cont-flex{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+img{
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: 95%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.temp {
+	font-size: 1.6em;
+	color: #3496FA;
+}
+
+.description {
+	font-size: 1em;
+	color: #3496FA;
+}
+
+h2 {
+	margin-top: 25px;
+}
+
+h1 {
+	margin-bottom: 45px;
+}
+
+a {
+	color: black;
+	padding-left: 8px;
+}
+a:hover{
+	color: #3496FA;
+	text-decoration: none;
+	cursor: pointer;
+}

@@ -1,0 +1,35 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>localWeather	</title>
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">How Is Your Weather Today?</h1>
+    <div class="cont-flex row">
+      <div class="col-lg-4 text-right col-xs-12 col-md-4">
+        <h2>Temperature:</h2>
+        <p class="temp"></p>
+        <a id="conversionC">ºC</a>
+        <a id="conversionF">ºF</a>
+        <h2>Humidity:</h2>
+        <p class="humidity">%</p>
+        <h2>Pressure:</h2>
+        <p class="press">hpa</p>
+        <p class="description">Consider:</p>
+      </div>
+      <div class="col-lg-8 col-xs-12 col-md-8 imag">
+        <img class="" src="img/Other.jpg" alt="little kitty looking the weather" width="500">
+      </div>
+    </div>
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+<script src="jquery.geolocation.js" type="text/javascript"></script>
+<script src="app.js" type="text/javascript"></script>
+</body>
+</html>
