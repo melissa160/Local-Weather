@@ -1,5 +1,22 @@
 body {
-	background-color: #FFEAE5;
+/* IE10+ */ 
+/* IE10+ */ 
+background-image: -ms-linear-gradient(left, #ffffff -100%, #B8BBFC 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(left, #ffffff -100%, #B8BBFC 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(left, #ffffff -100%, #B8BBFC 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right top, color-stop(-100, #ffffff), color-stop(100, #B8BBFC));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(left, #ffffff -100%, #B8BBFC 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to right, #ffffff -100%, #B8BBFC 100%);
 	font-family: 'Arvo', serif;
 	font-size: 20px;
 }
@@ -48,6 +65,8 @@ h2 {
 h1 {
 	margin-bottom: 45px;
 	font-size: 40px;
+	font-weight: 900;
+	font-family: 'Abril Fatface', cursive;
 }
 
 a {
@@ -79,6 +98,8 @@ p {
 	}
 	h1{
 		font-size: 60px;
+		font-weight: bold;
+		font-family: 'Abril Fatface', cursive;
 	}
 
 	a{
