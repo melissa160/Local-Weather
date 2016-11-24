@@ -1,7 +1,7 @@
 body {
 	background-color: #FFEAE5;
 	font-family: 'Arvo', serif;
-	font-size: 23px;
+	font-size: 20px;
 }
 
 .container{
@@ -31,21 +31,23 @@ img{
 }
 
 .temp {
-	font-size: 1.6em;
+	font-size: 50px;
 	color: #3496FA;
 }
 
 .description {
-	font-size: 1em;
+	font-size: 19px;
 	color: #3496FA;
 }
 
 h2 {
 	margin-top: 25px;
+	font-size: 30px;
 }
 
 h1 {
 	margin-bottom: 45px;
+	font-size: 40px;
 }
 
 a {
@@ -56,4 +58,34 @@ a:hover{
 	color: #3496FA;
 	text-decoration: none;
 	cursor: pointer;
+}
+
+p {
+	font-size: 22px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+    p {
+    	font-size: 48px;
+	}
+
+	h2{
+		font-size: 55px;
+	}
+	h1{
+		font-size: 60px;
+	}
+
+	a{
+		font-size: 43px;
+	}
+
+	.description {
+    	font-size: 30px;
+	}
 }
