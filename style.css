@@ -83,6 +83,10 @@ p {
 	font-size: 22px;
 }
 
+#conversionC{
+	color: #3496FA;
+}
+
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
