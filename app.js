@@ -3,7 +3,7 @@
 
   $(document).ready(function(){
 
-  var flickerAPI = "http://api.openweathermap.org/data/2.5/weather?";
+  var flickerAPI = "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?";
   var lat = 0;
   var lon = 0;
   var celsius = true;
